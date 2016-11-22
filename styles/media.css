@@ -1,0 +1,585 @@
+@charset "utf-8";
+/* CSS Document */
+/* Updated last: 01/10/2016 5:12am */
+@media (max-width: 320px) {
+
+.about-me{ background:url(../images/about01.svg) no-repeat;
+           min-width:31px;
+		   min-height:40px;
+		   margin-left:1rem !important;
+		   background-position:top,center;/****************************/
+}
+
+.negL{ margin-left:-1rem;
+}
+.negative{ margin-top:0;
+}
+
+/************************** MODAL ********************/
+.modal-content{ background-color:#73695c;/*#b24934; /*Coral*/
+}
+.modal-body{ background-color: white;
+}
+h3.modal-title{ color:#e0e0d0;
+                font-size:18px;
+}
+}
+@media (min-width: 375px) and (min-height: 667px)  { /* iPhone6 */
+input { width: 325px;
+}
+.submit{ width:325px;		 
+}
+textarea.message{ width:325px;
+}
+}
+@media (min-width: 414px) { /* iPhone6plus */
+input { width: 380px;
+}
+.submit{ width:380px;		 
+}
+textarea.message{ width:380px;
+}
+}
+@media (min-width: 600px) {
+	
+h1{ font-size:40px;
+    color:#f6f2f0; /* my white */
+	font-family:'Lora', serif;
+	
+}
+	
+input {
+
+    width: 200px;
+
+}
+.submit{ background-color:#75b8a4;
+         text-align:center;
+		 color:#f6f2f0;
+         margin: 0 auto;
+		 margin-top:0px;
+		 border:none !important;
+		 font-weight:400;
+		 font-size:18px;
+		 width:400px;		 
+}
+
+.fix{ padding-left:15px;
+    
+}
+
+
+.bullet{ list-style:outside;
+         margin-left:2rem;
+		 font-size:18px;
+}	
+.leftList{ margin-left:2rem;
+}
+	
+.learn-more{ padding-right:0;
+             margin-top:2rem;
+			 padding-bottom:6rem !important;			
+}
+a.learn-button{   text-transform:uppercase;
+                  font-size:16px;
+				  margin-left:-2rem !important;
+				  float:none;
+}
+
+
+h2{ color:#f6f2f0; /* my white */
+    font-weight:700;
+	font-size:2.5rem;
+	padding-top:0;
+	margin-top:-5px;
+}
+.meow{ /*background-image:url('../images/sneaky01.png');*/
+       background-repeat:no-repeat;
+	   background-position:right bottom;
+	   min-height:450px;
+	   margin-bottom:-4rem;
+	   
+}
+
+.navbar-left{ padding-left:4rem;
+              float:left;
+			  width:30%;
+			  margin-left:0;
+}
+.purty {
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;	
+}
+.learn-more{ margin-bottom:2.5rem;
+			 margin-left:3rem;
+}
+}
+@media (min-width: 768px) { /**tablet portrait**/
+
+/**.learn {
+    margin-bottom: 12rem;
+}**/
+.only-phone{ display:none !important;
+}
+.fixHeight{ height:40px;
+            
+}
+.greeting {
+    font-size: 60px;
+    font-style: italic;
+	padding-top:4rem;
+}
+.imgPad{ padding:1em 9em;
+}
+
+.biggy{ font-size:42px;
+      font-weight:900;
+	  color:#f6f2f0; /* my white */
+	  font-family:'Lato',sans serif;
+	  text-align:center;
+	  font-style:normal;
+}
+.sub-biggy{ font-size:30px;
+      font-weight:300;
+	  color:#f6f2f0; /* my white */
+	  font-family:'Lato',sans serif;
+	  text-align:center;
+	  font-style:normal;
+}
+.boom-boom{ padding-bottom:40px;
+            padding-top:0px;
+			
+}
+
+
+
+
+.bullet{ margin-left:2rem;
+		 font-size:16px;
+}
+/*.custom-modal{ width:60%;
+}*/
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    position: absolute;
+    top: 200px;
+    z-index: 5;
+	
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{ 
+            background-color:#73695c;
+            border-bottom-left-radius:5px;
+			border-top-right-radius:5px;
+			padding-bottom:35px !important;
+			padding-top:5px;
+}
+.meow{ background-image:url('../images/sneaky-kitty01.png');
+       background-repeat:no-repeat;
+	   background-position:right bottom;
+	   min-height:550px;
+	   margin-bottom:-4rem;
+	   
+}
+.navbar-nav {
+    /**margin: 7.5px -15px;**/
+}
+.navbar-right { padding-right:2rem;
+                width:30%;
+				margin-top:2rem;
+                
+}
+.navbar-left{ padding-left:4rem;
+              padding-right:4rem;
+              float:left;
+			  width:30%;
+			  margin-left:0;
+}
+.navbar-nav>li>a { padding:5px;
+				   
+}
+.about-me{ background:url(../images/about.svg) no-repeat;
+           min-width:53px;
+		   min-height:40px;
+		   margin-right:2rem !important;
+        
+       
+}
+.contact-me{ background:url(../images/contact.svg) no-repeat;
+           min-width:46px;
+		   min-height:40px;
+		   background-position:top,center;
+        
+       
+}
+.my-work{ background:url(../images/work.svg) no-repeat;
+           min-width:45px;
+		   min-height:40px;
+        
+       
+}
+/*.hide-big{ display:none;
+           
+}*/
+.nav-icon-text { margin-top:40px;
+                 padding: 0;
+				 margin-bottom:0px;
+				 
+}
+
+/************************************* CONTENT ********************/
+
+.decorate03{ 
+             padding:2rem 2rem;
+}
+.brownish{ background-color:#a36a54; /* brownish */
+           padding-bottom:3rem;
+		   margin-top:-10px;
+		   
+}
+
+.more{ background:#75b8a4;
+                 text-align:center;
+				 padding-left:4rem;
+				 padding-right:4rem;
+				 padding-top:1.5rem;
+				 padding-bottom:1.5rem;
+				 /*border: 1px solid #75b8a4;*/
+                 position: relative;
+                 margin: 0 auto;
+				 margin-top:4rem;
+				 
+}
+.more:before {
+  background: none;
+  border: 4px solid #f6f2f0;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  pointer-events: none;
+}
+
+
+.dark{ 
+	   padding:8rem 4rem;
+	   padding-right:6rem;
+         
+}
+.fishy{ padding-left:20%;
+        padding-bottom:10%;
+		padding-top:0;
+        
+		
+}
+
+.tab h1{ font-size:36px;
+         margin-bottom:3rem; 
+}
+.tab h1 span{ font-size:20px;
+}
+h4{ font-size:24px;}
+.about{ padding-left:12rem;
+		padding-right:12rem;
+}
+
+.marginFix{ margin-right:7rem;
+}
+.ghost{ border: medium solid #b24934;
+        color: #b24934;
+		font-size:48px;
+		padding:0.5rem 15rem;
+		margin-bottom:40px;
+		
+}
+header{ 
+		padding-top:0 !important;
+		margin:0 auto;
+		margin-left:-15px;
+		margin-right:-15px;
+		min-height:100px;
+		
+		
+}
+
+.leftMarg{ margin-left:5rem;
+}
+.rightMarg{ margin-right:14rem;
+}
+.nice-p{     padding-top:8rem;
+	         padding-left:4rem;
+			 padding-bottom:8rem;
+			 background-color:#b24934; /*coral*/
+			 padding-right:15px;
+			 margin-top:4rem;
+}
+.paddingFix{ padding-top:3rem;
+             margin-left:12rem;
+			 margin-right:-5px;
+}
+.padFix{ padding-left:4rem;
+}
+.padder{ padding-left:10rem;
+         padding-right:10rem;
+		 padding-bottom:5rem;
+}
+.pad-me {padding: 2rem 8rem;
+}
+
+
+.topper{ margin-top: 2rem;
+}
+/************************** MODAL ********************/
+.modal-content{ background-color:#73695c; /*#d97a56 !important; /*coral*/
+                
+}
+
+h3.modal-title{ color:#f6f2f0;/*my white*/
+                font-size:16px;
+}
+.vids{ padding-left:1rem;
+       padding-right:1rem;
+	   width:560px;
+	   height:420px;
+	  
+	   
+}
+/***************************FORM*********************/
+
+textarea{ width:402px;
+}
+textarea.message{ width:402px;
+}
+input.submit{ width:402px !important;/********button fix*****/		 
+}
+/************************* FOOTER********************/
+ 
+footer{    
+		   padding:2rem;
+		    
+		   font-size:16px;  
+}
+.icons li{ display:inline-block;
+width:70px;
+height:72px;
+padding:1rem;
+}
+@media (min-width: 992px){ /* Change size of modal */
+.modal-dialog { width:700px;
+}
+.imgPad{ padding:1em 1em;
+}
+@media(min-width: 1024px) { /************* tablet landscape SCREENS **********/
+
+.writeUp{ 
+		  margin-left:5px;
+		  font-size:16px;
+		  margin-right:16px;
+          
+}
+
+.img-pad{ padding:2rem 7rem;
+}
+.imgPad{ padding:1em 3em;
+}
+.form-heading { 
+                font-size: 30px;
+				margin-top:3rem;
+				max-width:400px;
+}
+
+.learn-more{ padding-right:0;
+             margin-top:3rem;
+			 padding-bottom:0rem !important;
+			 margin-bottom:0rem;			
+}
+
+.negLeft{ margin-left:-4rem;
+}
+.navbar-right { padding-right:0; 
+                width:30%;
+				margin-top:2rem;
+				
+                
+}
+
+.navbar-left{ padding-left:2rem;
+              float:left;
+			  width:20%;
+			  margin-left:0;
+}
+.lefty{ margin-left:1.5rem;
+}
+.leftList{ margin-left:10rem;
+}
+.paw{ margin-left:0px;
+}
+.negR{ margin-right:0rem;
+}
+.pinkParis{ font-family: 'Parisienne', cursive; /** About Screen **/
+            font-size:40px;
+			text-align:center;
+			color:#db8d70;
+			margin-bottom:2rem;
+}
+.download{ color:#d97a56; /** coral-orange **/
+           font-size:16px;
+		   transition: color 0.250s ease !important;
+}
+.meow{ background-image:url('../images/kitty-graphic01.png');
+       background-repeat:no-repeat;
+	   background-position:right top;
+	   min-height:450px;
+	   
+}
+
+/*.hide-big{ display:none;
+           
+}*/
+
+.more{ background:#75b8a4;
+                 text-align:center;
+				 padding-left:5rem;
+				 padding-right:5rem;
+				 padding-top:1.5rem;
+				 padding-bottom:1.5rem;
+				 /*border: 1px solid #75b8a4;*/
+                 position: relative;
+                 margin: 0 auto;
+				 margin-top:4rem;
+				 
+}
+.more:before {
+  background: none;
+  border: 4px solid #f6f2f0;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  pointer-events: none;
+}
+.pad {
+    padding: 2rem 7rem;
+	margin-top:0rem;
+}
+
+}
+@media(min-width: 1200px) { /************* LARGEST SCREENS **********/
+
+.fixHeight{ height:auto;
+            
+}
+
+.navbar-right { padding-right:4rem;
+                width:20%;
+				margin-top:2rem;
+                
+}
+.navbar-left{ padding-left:2rem;
+              float:left;
+			  width:20% !important;
+			  margin-left:0;
+}
+	
+.meow{ background-image:url('../images/kitty-graphic-med.png');
+       background-repeat:no-repeat;
+	   background-position:right top;
+	   min-height:525px;
+	   margin-bottom:0;
+	   
+}
+
+
+
+
+.more{ background:#75b8a4;
+                 text-align:center;
+				 padding-left:10rem;
+				 padding-right:10rem;
+				 padding-top:1.5rem;
+				 padding-bottom:1.5rem;
+				 /*border: 1px solid #75b8a4;*/
+                 position: relative;
+                 margin: 0 auto;
+				 margin-top:4rem;
+				 
+}
+.more:before {
+  background: none;
+  border: 4px solid #f6f2f0;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  pointer-events: none;
+}
+
+.repos{ padding-right:50px;
+	        
+}
+.rightMarg{ right-margin: 16rem;
+}
+.tabletFix{ margin-top: 0;
+}
+/************************** MODAL ********************/
+.modal-content{ background-color:#73695c; /*#d97a56 !important; /*coral*/
+                
+}
+.modal-body{ background-color: #f6f2f0;/*my white*/
+}
+h3.modal-title{ color:#f6f2f0;/*my white*/
+                font-size:18px;
+}
+
+}
+/*********************************************************** MOBILE ***************************/
+
+@media (max-width: 767px) {
+
+
+.address{ margin-top:1.5rem;
+}
+a.all{ margin-top:20px !important;
+       margin-bottom: 20px !important;
+	   clear:both;/*************************************************************************************/
+}
+
+
+.marginFix{ margin-top:0;
+            margin-left:10px !important;
+}
+
+.nice-p{ padding-top:6rem;
+	     padding-left:1rem;
+		 padding-bottom:6rem;
+		 background-color:#b24934 !important; /*coral*/
+		 padding-right:10px;
+		 margin-top:0rem;
+}
+.negative{ margin-top:0;
+}
+.tabletFix{ margin-top: 0;
+}
+
+/************************** MODAL ********************/
+.modal-content{ background-color:#73695c; /*#b24934; /*Coral*/
+}
+.modal-body{ background-color: white;
+             padding:7px;
+}
+h3.modal-title{ color:#e0e0d0;
+                font-size:18px;
+}
+
+
+
+
+}
+
